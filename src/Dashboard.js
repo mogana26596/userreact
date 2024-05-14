@@ -15,7 +15,7 @@ const Dashboard = () => {
            
               <div className="container-fluid">
         <div className='dashboard'>
-           <img style={{height:"500px",width:"1000px"}} src=" https://media.licdn.com/dms/image/C560DAQHAZQTmuuRihg/learning-public-crop_288_512/0/1627585438271?e=2147483647&v=beta&t=3JZ70zMxZHnaI2Euj60nF-scNrmsTeb8NGI71Rq6phw"/>
+           <img style={{height:"500px",width:"1000px"}} src="https://www.leadsquared.com/wp-content/uploads/2021/11/banner-2-3.jpg"/>
         </div>  
         <div>
             <Button style={{margin:"10px 550px"}} className="user-login" onClick={() => navigate('/createstudent')}
