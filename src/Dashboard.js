@@ -15,15 +15,15 @@ const Dashboard = () => {
            
               <div className="container-fluid">
         <div className='dashboard'>
-           <img style={{height:"300px",width:"600px"}} src=" https://d35fo82fjcw0y8.cloudfront.net/2019/08/06134352/blog-header.png"/>
+           <img style={{height:"500px",width:"1000px"}} src=" https://media.licdn.com/dms/image/C560DAQHAZQTmuuRihg/learning-public-crop_288_512/0/1627585438271?e=2147483647&v=beta&t=3JZ70zMxZHnaI2Euj60nF-scNrmsTeb8NGI71Rq6phw"/>
         </div>  
         <div>
-            <Button style={{margin:"10px 350px"}} className="user-login" onClick={() => navigate('/createuser')}
-                variant="contained"><b>User Login</b></Button>
+            <Button style={{margin:"10px 550px"}} className="user-login" onClick={() => navigate('/createstudent')}
+                variant="contained"><b>Student Login</b></Button>
         </div>
         <div>
-            <Button style={{margin:"5px 350px" }} className="profile-login" onClick={() => navigate('/createprofile')}
-                variant="contained"><b>User Profile Login</b></Button>
+            <Button style={{margin:"5px 550px" }} className="profile-login" onClick={() => navigate('/createteacher')}
+                variant="contained"><b>Teacher Login</b></Button>
         </div>
         </div>
         </div>

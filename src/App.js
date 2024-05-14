@@ -2,17 +2,17 @@ import './App.css';
 import { Routes, Route} from "react-router-dom";
 import Login from './Login';
 import Dashboard from './Dashboard';
-import Createuser from './user/Createuser';
-import Edituser from './user/Edituser';
-import Edituserform from './user/Edituserform';
-import Viewuser from './user/Viewuser';
-import Deleteuser from './user/Deleteuser';
+import Createstudent from './student/Createstudent';
+import Editstudent from './student/Editstudent';
+import Editstudentform from './student/Editstudentform';
+import Viewstudent from './student/Viewstudent';
+import Deletestudent from './student/Deletestudent';
 
-import Createprofile from './profile/Createprofile';
-import Editprofile from './profile/Editprofile';
-import Viewprofile from './profile/Viewprofile';
-import Edituserprofileform from './profile/Edituserprofileform';
-import Deleteprofile from './profile/Deleteprofile';
+import Createteacher from './teacher/Createteacher';
+import Editteacher from './teacher/Editteacher';
+import Viewteacher from './teacher/Viewteacher';
+import Editteacherform from './teacher/Editteacherform';
+import Deleteteacher from './teacher/Deleteteacher';
 
 function App() {
   return (
@@ -22,18 +22,18 @@ function App() {
             <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/dashboard" element={<Dashboard />} />
-                <Route path="/createuser" element={<Createuser />} />
-                <Route path="/viewuser" element={<Viewuser />} />
-                <Route path="/edituser" element={<Edituser />} />
-                <Route path="/edituserform" element={<Edituserform />} />
-                <Route path="/deleteuser" element={<Deleteuser />} />
+                <Route path="/createstudent" element={<Createstudent />} />
+                <Route path="/viewstudent" element={<Viewstudent />} />
+                <Route path="/editstudent" element={<Editstudent />} />
+                <Route path="/editstudentform" element={<Editstudentform />} />
+                <Route path="/deletestudent" element={<Deletestudent />} />
 
 
-                <Route path="/createprofile" element={<Createprofile />} />
-                <Route path="/viewprofile" element={<Viewprofile />} />
-                <Route path="/editprofile" element={<Editprofile />} />
-                <Route path="/edituserprofileform" element={<Edituserprofileform />} />
-                <Route path="/deleteprofile" element={<Deleteprofile />} />
+                <Route path="/createteacher" element={<Createteacher />} />
+                <Route path="/viewteacher" element={<Viewteacher />} />
+                <Route path="/editteacher" element={<Editteacher />} />
+                <Route path="/editteacherform" element={<Editteacherform />} />
+                <Route path="/deleteteacher" element={<Deleteteacher />} />
               </Routes>
       
     </div>

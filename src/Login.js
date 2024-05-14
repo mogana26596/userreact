@@ -14,7 +14,7 @@ function Login() {
           e.preventDefault();
           
           try{
-              const response = await axios.post('http://localhost:3003/register/login', {...formData });
+              const response = await axios.post('https://school-backend-w7w6.onrender.com/register/login', {...formData });
               console.log(response);console.log(formData);
               if(response.data) {
                   await localStorage.setItem("token", response.data);
@@ -26,14 +26,14 @@ function Login() {
       };
 
     return (
-        <div className="bg-gradient-light" style={{height:"750px"}}>
+        <div className="bg-gradient-light" style={{height:"1000px"}}>
 
-            <div className="container">
+            <div className="container" style={{margin:"100px auto"}}>
 
                 {/* <!-- Outer Row --> */}
                 <div className="row justify-content-center">
 
-                    <div className="col-xl-10 col-lg-12 col-md-9">
+                    <div className="col-xl-10 col-lg-12 ">
 
                         <div className="card o-hidden border-0 shadow-lg my-5">
                             <div className="card-body p-0">
