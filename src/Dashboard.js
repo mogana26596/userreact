@@ -15,15 +15,15 @@ const Dashboard = () => {
            
               <div className="container-fluid">
         <div className='dashboard'>
-           <img style={{height:"500px",width:"1000px"}} src="https://www.leadsquared.com/wp-content/uploads/2021/11/banner-2-3.jpg"/>
+           <img style={{height:"600px",width:"800px"}} src="https://smartstudent.app/media/2022/09/managment-software.png"/>
         </div>  
         <div>
-            <Button style={{margin:"10px 550px"}} className="user-login" onClick={() => navigate('/createstudent')}
-                variant="contained"><b>Student Login</b></Button>
+            <Button style={{margin:"10px 600px"}} className="user-login" onClick={() => navigate('/createstudent')}
+                variant="contained"><b>Student Details Login</b></Button>
         </div>
         <div>
-            <Button style={{margin:"5px 550px" }} className="profile-login" onClick={() => navigate('/createteacher')}
-                variant="contained"><b>Teacher Login</b></Button>
+            <Button style={{margin:"5px 600px" }} className="profile-login" onClick={() => navigate('/createteacher')}
+                variant="contained"><b>Teacher Details Login</b></Button>
         </div>
         </div>
         </div>
